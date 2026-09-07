@@ -94,3 +94,6 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
+button:hover, button:focus-visible{
+    background: var(--color-accent-dark);
+}
