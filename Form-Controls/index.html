@@ -21,6 +21,26 @@
           <legend>Your details</legend>
             <div class="form-row">
               <label for="name">Full name</label>
+              <input type="text" id="name" name="name" pattern=".*\S.*\S.*" required placeholder="Enter fullname here">
+            </div>
+            <div class="form-row">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required placeholder="Enter Email address here">
+            </div>
+        </fieldset>
+        <fieldset>
+          <legend> Choose a color</legend>
+            <div class="form-row radio-row">
+              <input type="radio" id="color-black" name="color" value="black" required>
+              <label for="color-black">Black</label>
+            </div>
+            <div class="form-row radio-row">
+              <input type="radio" id="color-white" name="color" value="white" required>
+              <label for="color-white">White</label>
+            </div>
+            <div class="form-row radio-row">
+              <input type="radio" id="color-blue" name="color" value="blue" required>
+              <label for="color-blue">Blue</label>
             </div>
         </fieldset>
       </form>
