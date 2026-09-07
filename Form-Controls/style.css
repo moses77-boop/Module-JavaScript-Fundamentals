@@ -58,3 +58,7 @@ label{
     align-items: center;
     gap: 0.5rem;
 }
+.radio-row label{
+    margin-bottom: 0;
+    font-weight: normal;
+}
