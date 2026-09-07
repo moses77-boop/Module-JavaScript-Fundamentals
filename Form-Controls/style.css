@@ -4,3 +4,7 @@
 --color-border: #c9c9c9;
 --radius: 8px;
 }
+
+*{
+    box-sizing: border-box;
+}
