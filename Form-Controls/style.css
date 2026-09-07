@@ -45,3 +45,6 @@ legend{
 form.row{
     margin-bottom: 1rem;
 }
+form-row:last-child{
+    margin-bottom: 0;
+}
