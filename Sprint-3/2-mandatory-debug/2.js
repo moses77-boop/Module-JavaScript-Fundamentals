@@ -27,7 +27,6 @@
 
 // Finally, correct the code to fix the problem
 // =============> write your new code here
-// const num = 103 ---- becomes irrelevant 
 function getLastDigit(n){
   return n.toString().slice(-1)
 }
