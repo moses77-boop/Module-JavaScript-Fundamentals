@@ -1,23 +1,10 @@
-// let padCalls = 0;
-// let padCallCount = 0;
-// let firstNum;
-// let lastNum;
 let lastReturn;
 
 function pad(num) {
-  // padCalls++;
-  // padCallCount++;
-  // if (padCallCount === 1){
-  //   firstNum = num;
-  // }
-  // lastNum = num;
   let numString = num.toString();
   while (numString.length < 2) {
     numString = "0" + numString;
   }
-    //  if (padCallCount === 1){
-    //   firstReturn = numString;
-    //  }
     lastReturn = numString;
   return numString;
 }
@@ -30,11 +17,7 @@ function formatTimeDisplay(seconds) {
 
   return `${pad(totalHours)}:${pad(remainingMinutes)}:${pad(remainingSeconds)}`;
 }
-// for (const s of [8784, 77, 77777]){
-//   padCalls = 0;
-//   const result = formatTimeDisplay(s);
-//   console.log(`formatTimeDisplay(${s})==> ${result}| pad called ${padCalls} times `);
-// }
+
 formatTimeDisplay(61);
 console.log("The return value of pad when it is called for the last time is:", lastReturn);
 
